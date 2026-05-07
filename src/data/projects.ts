@@ -49,8 +49,10 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Landing Page RAPMAFEST #9",
-    description: "A dedicated landing page built to introduce the RAPMAFEST #9 event and manage all online ticket sales in one place.",
-    longDescription: "A dedicated landing page built to introduce the RAPMAFEST #9 event and manage all online ticket sales in one place. Features include responsive design, ticketing integration, and interactive elements.",
+    description:
+      "Landing page yang dibuat khusus untuk memperkenalkan acara RAPMAFEST #9 sekaligus mengelola seluruh penjualan tiket online dalam satu tempat.",
+    longDescription:
+      "Landing page yang dirancang dan dikembangkan secara khusus untuk acara RAPMAFEST #9 — sebuah festival musik dan seni yang diselenggarakan oleh mahasiswa. Website ini berfungsi sebagai pusat informasi utama bagi calon pengunjung, menampilkan detail acara, lineup pengisi acara, dan jadwal kegiatan. Selain itu, halaman ini juga terintegrasi dengan sistem pembelian tiket online sehingga seluruh proses transaksi dapat dilakukan dengan mudah dan cepat. Dibangun menggunakan HTML, CSS, dan Bootstrap untuk memastikan tampilan yang responsif di berbagai perangkat.",
     image: rapmafest9Thumb,
     screenshots: [rapmafest9Sc1, rapmafest9Sc2, rapmafest9Sc3],
     tags: ["HTML", "CSS", "Bootstrap"],
@@ -59,8 +61,10 @@ export const projects: Project[] = [
   },
   {
     title: "Landing Page RAPMAFEST #10",
-    description: "A dedicated landing page built to introduce the RAPMAFEST #10 event and manage all online ticket sales in one place.",
-    longDescription: "A dedicated landing page built to introduce the RAPMAFEST #10 event and manage all online ticket sales in one place. Features include responsive design, ticketing integration, and interactive elements.",
+    description:
+      "Landing page yang dibuat khusus untuk memperkenalkan acara RAPMAFEST #10 sekaligus mengelola seluruh penjualan tiket online dalam satu tempat.",
+    longDescription:
+      "Landing page edisi ke-10 dari RAPMAFEST yang hadir dengan desain yang lebih segar dan modern dibandingkan edisi sebelumnya. Website ini menyajikan informasi lengkap seputar acara mulai dari konsep tema, pengisi acara, hingga lokasi dan waktu pelaksanaan. Fitur utamanya adalah sistem pembelian tiket online yang terintegrasi langsung, memudahkan calon penonton untuk membeli tiket dari mana saja. Dibangun dengan HTML, CSS, dan Bootstrap sehingga tampilannya tetap optimal di perangkat desktop maupun mobile.",
     image: rapmafest10Thumb,
     screenshots: [rapmafest10Sc1, rapmafest10Sc2, rapmafest10Sc3],
     tags: ["HTML", "CSS", "Bootstrap"],
@@ -69,9 +73,10 @@ export const projects: Project[] = [
   },
   {
     title: "Jelajah Tulang",
-    description: "An interactive learning app built with Next.js 16. Designed to make studying the human skeletal system engaging through learning videos, quizzes, and audio for each bone.",
+    description:
+      "Aplikasi pembelajaran interaktif yang dibangun dengan Next.js 16. Dirancang untuk membuat proses belajar sistem rangka manusia menjadi lebih menarik melalui video pembelajaran, kuis, dan audio untuk setiap tulang.",
     longDescription:
-      "An interactive learning application built with Next.js 16, focusing on educational content about the human skeletal system. The app features high-quality tutorial videos, interactive quizzes for self-assessment, and detailed audio pronunciations for every bone.",
+      "Jelajah Tulang adalah aplikasi web edukasi interaktif yang dikembangkan menggunakan Next.js 16 dan Tailwind CSS, berfokus pada materi sistem rangka manusia. Aplikasi ini dirancang agar proses belajar menjadi lebih menyenangkan dan mudah dipahami. Fitur-fitur utamanya meliputi video pembelajaran berkualitas tinggi yang menjelaskan setiap bagian tulang secara detail, kuis interaktif untuk mengukur pemahaman pengguna, serta fitur audio yang membantu pengguna mendengarkan dan menghafalkan nama-nama tulang dengan pelafalan yang benar. Cocok digunakan sebagai media pembelajaran pendamping bagi mahasiswa atau siswa yang mempelajari anatomi tubuh manusia.",
     image: jelajahTulangThumb,
     screenshots: [jelajahTulangSc1, jelajahTulangSc2, jelajahTulangSc3],
     tags: ["Next Js", "Tailwind CSS"],
@@ -81,8 +86,10 @@ export const projects: Project[] = [
   },
   {
     title: "Jelajah Sendi",
-    description: "A learning website designed as an introduction to human joints. This application uses interactive puzzles and GIF animations of joint movements to create a unique and engaging learning experience.",
-    longDescription: "A learning website designed as an introduction to human joints. This application uses interactive puzzles and GIF animations of joint movements to create a unique and engaging learning experience.",
+    description:
+      "Website pembelajaran yang dirancang sebagai pengenalan terhadap sendi pada tubuh manusia. Aplikasi ini menggunakan puzzle interaktif dan animasi GIF gerakan sendi untuk menciptakan pengalaman belajar yang unik dan menarik.",
+    longDescription:
+      "Jelajah Sendi adalah website edukasi interaktif yang bertujuan untuk memperkenalkan berbagai jenis sendi pada tubuh manusia dengan cara yang menyenangkan. Aplikasi ini dibangun menggunakan React dan Chakra UI, menghadirkan pendekatan belajar yang berbeda dari konvensional. Pengguna dapat menyelesaikan puzzle interaktif untuk mengenal struktur sendi, serta melihat animasi GIF yang memvisualisasikan bagaimana setiap sendi bergerak secara nyata. Pendekatan gamifikasi ini membuat proses belajar terasa lebih engaging dan mudah diingat, terutama bagi mahasiswa atau siswa yang sedang mempelajari sistem gerak manusia.",
     image: jelajahSendiThumb,
     screenshots: [jelajahSendiSc1, jelajahSendiSc2, jelajahSendiSc3],
     tags: ["React", "Chakra UI"],
@@ -92,8 +99,10 @@ export const projects: Project[] = [
   },
   {
     title: "Jelajah Saraf",
-    description: "A learning website that aims to introduce the human nervous system. This application uses learning videos for material delivery and interactive quizzes to test understanding.",
-    longDescription: "A learning website that aims to introduce the human nervous system. This application uses learning videos for material delivery and interactive quizzes to test understanding.",
+    description:
+      "Website pembelajaran yang bertujuan untuk memperkenalkan sistem saraf manusia. Aplikasi ini menggunakan video pembelajaran untuk penyampaian materi dan kuis interaktif untuk menguji pemahaman.",
+    longDescription:
+      "Jelajah Saraf adalah website edukasi yang dirancang khusus untuk memperkenalkan dan menjelaskan sistem saraf pada tubuh manusia. Dibangun menggunakan React dan Chakra UI, aplikasi ini menyajikan materi pembelajaran melalui video edukatif yang mudah dipahami serta dilengkapi dengan kuis interaktif yang membantu pengguna menguji sejauh mana pemahaman mereka terhadap materi yang telah dipelajari. Dengan antarmuka yang bersih dan intuitif, Jelajah Saraf menjadi media belajar yang efektif dan menyenangkan bagi siapa saja yang ingin memahami cara kerja sistem saraf manusia secara mendalam.",
     image: jelajahSarafThumb,
     screenshots: [jelajahSarafSc1, jelajahSarafSc2, jelajahSarafSc3],
     tags: ["React", "Chakra UI"],
@@ -104,9 +113,9 @@ export const projects: Project[] = [
   {
     title: "E-Posyandu Si Bunda",
     description:
-      "A digital solution built to modernize child health monitoring by replacing the conventional Posyandu (maternal/child health) book. This web application features direct integration with an IoT digital scale, allowing for the seamless capture of toddler height and weight data to efficiently track their health conditions.",
+      "Solusi digital yang dibangun untuk memodernisasi pemantauan kesehatan anak dengan menggantikan buku KMS Posyandu konvensional. Aplikasi web ini terintegrasi langsung dengan timbangan digital IoT untuk pencatatan data tinggi dan berat badan balita secara otomatis.",
     longDescription:
-      "A digital solution built to modernize child health monitoring by replacing the conventional Posyandu (maternal/child health) book. This web application features direct integration with an IoT digital scale, allowing for the seamless capture of toddler height and weight data to efficiently track their health conditions.",
+      "E-Posyandu Si Bunda adalah aplikasi web yang dikembangkan sebagai solusi digital untuk menggantikan pencatatan manual pada buku KMS (Kartu Menuju Sehat) Posyandu. Proyek ini menggabungkan teknologi IoT dan web development — di mana timbangan digital yang terhubung ke internet secara otomatis mengirimkan data tinggi dan berat badan balita ke dalam sistem. Data tersebut kemudian diolah dan ditampilkan dalam dashboard yang informatif, sehingga kader Posyandu dan orang tua dapat memantau tumbuh kembang anak secara real-time. Dibangun dengan arsitektur fullstack menggunakan Laravel sebagai backend, Next.js sebagai frontend, dan MySQL sebagai database, aplikasi ini dirancang untuk mempermudah proses pencatatan dan meningkatkan akurasi data kesehatan balita di tingkat Posyandu.",
     image: ePosyanduThumb,
     screenshots: [ePosyanduSc1, ePosyanduSc2, ePosyanduSc3],
     tags: ["IoT", "Laravel", "Next.js", "MySQL"],
