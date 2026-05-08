@@ -34,6 +34,18 @@ import ePosyanduSc1 from "../assets/projects/project-6/eposyandu-1.png";
 import ePosyanduSc2 from "../assets/projects/project-6/eposyandu-2.png";
 import ePosyanduSc3 from "../assets/projects/project-6/eposyandu-3.png";
 
+// Project images — Document Approval Management System
+import damsThumb from "../assets/projects/project-7/dams.png";
+import damsSc1 from "../assets/projects/project-7/dams-1.png";
+import damsSc2 from "../assets/projects/project-7/dams-2.png";
+import damsSc3 from "../assets/projects/project-7/dams-3.png";
+
+// Project images — PTPN Radio Solo
+import ptpnRadioThumb from "../assets/projects/project-8/ptpn.png";
+import ptpnRadioSc1 from "../assets/projects/project-8/ptpn-1.png";
+import ptpnRadioSc2 from "../assets/projects/project-8/ptpn-2.png";
+import ptpnRadioSc3 from "../assets/projects/project-8/ptpn-3.png";
+
 export interface Project {
   title: string;
   description: string;
@@ -120,5 +132,28 @@ export const projects: Project[] = [
     screenshots: [ePosyanduSc1, ePosyanduSc2, ePosyanduSc3],
     tags: ["IoT", "Laravel", "Next.js", "MySQL"],
     color: "bg-neo-mint",
+  },
+  {
+    title: "Document Approval Management System",
+    description:
+      "Sistem manajemen persetujuan dokumen berbasis web yang dibangun untuk PT. Tiga Serangkai. Aplikasi ini mengelola alur persetujuan bertingkat, tanda tangan digital, dan notifikasi real-time menggunakan Laravel 12, React 19, dan Inertia.js.",
+    longDescription:
+      "Document Approval Management System adalah aplikasi web komprehensif yang dikembangkan khusus untuk PT. Tiga Serangkai guna mendigitalisasi seluruh proses persetujuan dokumen internal perusahaan. Sistem ini memungkinkan konfigurasi alur persetujuan bertingkat (multi-level approval) secara dinamis berdasarkan jenis dokumen dan jabatan pengguna, sehingga setiap dokumen melewati proses verifikasi yang tepat sesuai struktur organisasi. Fitur tanda tangan digital terintegrasi dengan verifikasi identitas yang ketat untuk memastikan keabsahan setiap dokumen yang disetujui. Aplikasi ini juga dilengkapi dengan notifikasi real-time melalui WebSocket (Laravel Reverb) yang memberikan pembaruan instan setiap kali status dokumen berubah. Sistem kontrol akses berbasis peran (RBAC) memastikan setiap pengguna hanya dapat mengakses fitur sesuai jabatan dan perannya. Selain itu, fitur context switching memungkinkan pengguna yang memiliki lebih dari satu jabatan untuk berpindah konteks organisasi dengan mudah. Dibangun dengan arsitektur modern menggunakan Laravel 12 sebagai backend, React 19 dan Inertia.js 2.0 sebagai frontend, Tailwind CSS 4 dan Shadcn UI untuk styling, MySQL sebagai database, serta Laravel Sanctum dan Google OAuth untuk autentikasi.",
+    image: damsThumb,
+    screenshots: [damsSc1, damsSc2, damsSc3],
+    tags: ["Laravel", "React", "Inertia.js", "MySQL", "Tailwind CSS", "Shadcn UI"],
+    color: "bg-neo-blue",
+  },
+  {
+    title: "PTPN Radio Solo",
+    description:
+      "Website resmi untuk PTPN Radio Solo — stasiun radio yang telah mengudara sejak 1968. Dibangun menggunakan WordPress dengan fitur live streaming, jadwal siaran, profil penyiar, galeri, artikel berita, dan informasi event.",
+    longDescription:
+      "PTPN Radio Solo adalah website resmi yang dikembangkan untuk salah satu stasiun radio bersejarah di Kota Surakarta yang telah mengudara sejak tahun 1968. Website ini dibangun menggunakan WordPress dan berfungsi sebagai pusat informasi digital bagi pendengar setia maupun calon pendengar baru. Fitur utama meliputi live audio streaming yang memungkinkan pendengar menikmati siaran secara langsung dari mana saja, jadwal siaran lengkap sepanjang minggu yang menampilkan berbagai program unggulan seperti Zona Pagi, Dopamin, Hits Corner, Indienesia, hingga Nite Trip, serta profil para penyiar profesional yang mengisi setiap program. Selain itu, website ini juga dilengkapi dengan halaman artikel dan berita terkini seputar dunia musik dan broadcasting, galeri foto dokumentasi kegiatan, serta informasi event dan aktivitas off-air yang diselenggarakan oleh PTPN Radio. Halaman kontak terintegrasi memudahkan pendengar untuk menghubungi tim radio melalui WhatsApp maupun email.",
+    image: ptpnRadioThumb,
+    screenshots: [ptpnRadioSc1, ptpnRadioSc2, ptpnRadioSc3],
+    tags: ["WordPress"],
+    color: "bg-neo-red",
+    link: "https://ptpnradio.com/",
   },
 ];
