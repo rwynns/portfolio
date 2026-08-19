@@ -1,5 +1,6 @@
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
+import ExperienceSection from "./components/ExperienceSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactSection from "./components/ContactSection";
 import { Menu, X } from "lucide-react";
@@ -21,6 +22,7 @@ function App() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
@@ -128,6 +130,7 @@ function App() {
       <main className="pt-20">
         <HeroSection />
         <AboutSection />
+        <ExperienceSection />
         <ProjectsSection />
         <ContactSection />
       </main>

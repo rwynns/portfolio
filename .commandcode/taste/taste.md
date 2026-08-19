@@ -1,0 +1,4 @@
+- Prefers UI/visual refinements to be handled using the Impeccable design skill. Confidence: 0.9
+- Prefers communication in Indonesian. Confidence: 0.8
+- Prefers requested code changes to be implemented directly in the project rather than receiving instructions only. Confidence: 0.85
+- Prefers visual treatments such as logo backgrounds to be chosen individually for each asset based on its colors, shape, and composition rather than applying one generic style. Confidence: 0.9
