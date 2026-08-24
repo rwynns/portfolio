@@ -61,7 +61,7 @@ const HeroSection = () => {
             <motion.div variants={itemVariants} className="neo-badge bg-neo-light-yellow w-fit">
               <div className="flex items-center gap-2 whitespace-nowrap">
                 <Sparkles size={16} className="shrink-0" />
-                <span className="uppercase text-xs tracking-wider font-bold">Available for work</span>
+                <span className="uppercase text-xs tracking-wider font-bold">Open for selected projects</span>
               </div>
             </motion.div>
 
@@ -82,9 +82,12 @@ const HeroSection = () => {
               Fullstack Developer & Problem Solver
             </motion.h2>
 
+            <motion.p variants={itemVariants} className="text-lg font-bold text-black/80 max-w-xl">
+              Fullstack Developer full-time di Rumah Atsiri Indonesia.
+            </motion.p>
+
             <motion.p variants={itemVariants} className="text-xl text-black/70 leading-relaxed max-w-xl">
-              Lebih dari sekadar menulis kode, saya merancang solusi. Sebagai developer yang berfokus pada <span className="font-black text-black">Laravel, React.js, dan Next.js</span>, saya membangun sistem yang tangguh di <i>backend</i>{" "}
-              dan menyajikannya dengan UI/UX yang <i>stunning</i> di <i>frontend</i> untuk menaklukkan tantangan digital Anda.
+              Di luar pekerjaan utama, saya terbuka untuk project freelance dan kolaborasi terpilih. Lebih dari sekadar menulis kode, saya merancang solusi dengan <span className="font-black text-black">Laravel, React.js, dan Next.js</span>—dari sistem yang tangguh di <i>backend</i> hingga UI/UX yang <i>stunning</i> di <i>frontend</i>.
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
@@ -95,7 +98,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95, y: 0, boxShadow: "0px 0px 0px #000" }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                View My Work
+                Lihat Project
                 <ArrowRight className="inline-block ml-2" size={20} />
               </motion.a>
               <motion.a 
@@ -105,7 +108,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95, y: 0, boxShadow: "0px 0px 0px #000" }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                Get In Touch
+                Diskusikan Project
               </motion.a>
             </motion.div>
           </motion.div>

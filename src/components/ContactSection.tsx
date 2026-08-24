@@ -69,7 +69,7 @@ const ContactSection = () => {
           <div className="neo-badge bg-neo-mint mb-6 w-fit mx-auto">
             <div className="flex items-center justify-center gap-2 whitespace-nowrap">
               <MessageCircle size={16} className="shrink-0" />
-              <span className="uppercase text-xs tracking-wider font-bold">Get In Touch</span>
+              <span className="uppercase text-xs tracking-wider font-bold">Open for projects</span>
             </div>
           </div>
           <h2 className="text-5xl lg:text-7xl font-black mb-6">Let's Talk!</h2>
@@ -97,8 +97,8 @@ const ContactSection = () => {
                 <Mail size={32} strokeWidth={2.5} />
               </div>
               <div>
-                <h3 className="text-2xl font-black mb-2">Shoot Me an Email</h3>
-                <p className="text-black/80 mb-4 font-medium">Kalau mau jelasin detail project panjang lebar atau sekadar nanya-nanya dulu, langsung drop pesan ke email ini aja. Fast response, kok!</p>
+                <h3 className="text-2xl font-black mb-2">Diskusikan Project</h3>
+                <p className="text-black/80 mb-4 font-medium">Ceritakan kebutuhan project atau ide kolaborasimu lewat email. Kita bisa mulai dari ngobrol santai dulu.</p>
                 <a href="mailto:erwintra88@gmail.com" className="font-bold text-lg hover:underline break-all">
                   erwintra88@gmail.com
                 </a>
@@ -147,9 +147,9 @@ const ContactSection = () => {
           >
             <div className="flex items-center gap-3 mb-5">
               <div className="w-4 h-4 bg-green-500 border-2 border-black rounded-full animate-pulse shrink-0"></div>
-              <span className="font-bold text-lg uppercase tracking-wide leading-tight">Open For Work</span>
+              <span className="font-bold text-lg uppercase tracking-wide leading-tight">Open for Projects</span>
             </div>
-            <p className="text-black/80 leading-relaxed font-medium">Saat ini aku lagi available buat ngambil project freelance baru. Kalau kamu butuh partner collab yang bisa diajak sat-set, mari kita obrolin!</p>
+            <p className="text-black/80 leading-relaxed font-medium">Di luar pekerjaan full-time saya di Rumah Atsiri Indonesia, saya terbuka untuk project freelance dan kolaborasi terpilih. Punya kebutuhan digital? Mari kita obrolkan.</p>
           </motion.div>
         </motion.div>
       </div>

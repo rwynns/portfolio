@@ -2,3 +2,4 @@
 - Prefers communication in Indonesian. Confidence: 0.8
 - Prefers requested code changes to be implemented directly in the project rather than receiving instructions only. Confidence: 0.85
 - Prefers visual treatments such as logo backgrounds to be chosen individually for each asset based on its colors, shape, and composition rather than applying one generic style. Confidence: 0.9
+- When refining portfolio positioning, prefers bounded copy and CTA changes that preserve the existing visual identity rather than a full redesign. Confidence: 0.85
